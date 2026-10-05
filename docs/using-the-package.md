@@ -1,5 +1,10 @@
 # Using ETFPort
 
+For a complete editable example with your own forecasts, see the
+[README walkthrough](../README.md#use-your-own-assumptions) and
+[custom input guide](using-your-own-inputs.md). This page describes the
+objective, information contract and solver outputs.
+
 ## State the problem in consistent units
 
 All positions and caps are **dollar amounts in one fixed wealth unit**, not

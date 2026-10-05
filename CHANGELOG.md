@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- README walkthrough and runnable example for custom holdings, factor forecasts,
+  alpha estimates, uncertainty, fees, trading costs and future scenarios.
+- Input reference covering covariance construction, units, forecast revisions,
+  unspanned factors and JSON fields. Optimizer behavior is unchanged.
+
 ## 0.1.0 — 2026-10-05
 
 - Installable Python API and CLI for funded one-review and two-review allocation.

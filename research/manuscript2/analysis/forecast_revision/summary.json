@@ -1,0 +1,144 @@
+{
+  "core": {
+    "cases": 54,
+    "median_gain_bp": 0.015035288441467287,
+    "max_gain_bp": 0.18444433645242952,
+    "min_gain_bp": -4.998796043764742e-09,
+    "above_1bp": 0,
+    "max_control_adjusted_gain_bp": 0.1844443385760286
+  },
+  "costs": {
+    "cases": 54,
+    "median_gain_bp": 6.217721861645487e-05,
+    "max_gain_bp": 0.39172015945956673,
+    "min_gain_bp": -1.2131891935496242e-08,
+    "above_1bp": 0,
+    "max_control_adjusted_gain_bp": 0.39172016203447413
+  },
+  "all": {
+    "cases": 108,
+    "median_gain_bp": 0.0032058707179345447,
+    "max_gain_bp": 0.39172015945956673,
+    "min_gain_bp": -1.2131891935496242e-08,
+    "above_1bp": 0,
+    "max_control_adjusted_gain_bp": 0.39172016203447413
+  },
+  "max_old_static_error": 3.069904066677065e-06,
+  "max_old_beliefs_trade": 1.8455789674298728e-10,
+  "max_objective_error": 7.304660348816938e-13,
+  "min_cash": -7.350996785938826e-11,
+  "warning_count": 90,
+  "independent_warning_count": 0,
+  "max_independent_gain_error_bp": 2.038841273588332e-08,
+  "max_independent_holding_error": 9.121797622801964e-09,
+  "additional_checks": 6,
+  "additional_check_warnings": 0,
+  "max_additional_gain_error_bp": 3.1886855822449434e-08,
+  "max_additional_value_error_bp": 1.0266140293424542e-07,
+  "max_case": {
+    "scenario": "premium_up_persistent",
+    "gamma": 2.5,
+    "uncertainty": 1.0,
+    "alpha_offset_bp": 0,
+    "fund_bp": 20.0,
+    "etf_bp": 2.0
+  },
+  "unchanged_controls": [
+    {
+      "gamma": 2.5,
+      "uncertainty": 0.5,
+      "alpha_offset_bp": 0,
+      "fund_bp": 5.0,
+      "etf_bp": 2.0,
+      "gain_bp": -2.551928446337115e-09
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 5.0,
+      "etf_bp": 2.0,
+      "gain_bp": 3.4924596548080444e-10
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 2.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 5.0,
+      "etf_bp": 2.0,
+      "gain_bp": -4.039335976813163e-09
+    },
+    {
+      "gamma": 2.0,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 5.0,
+      "etf_bp": 2.0,
+      "gain_bp": -4.4866510506835766e-10
+    },
+    {
+      "gamma": 3.0,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 5.0,
+      "etf_bp": 2.0,
+      "gain_bp": -2.1235990743662114e-09
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": -5,
+      "fund_bp": 5.0,
+      "etf_bp": 2.0,
+      "gain_bp": 3.7478287140402244e-10
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 0.0,
+      "etf_bp": 0.0,
+      "gain_bp": 5.982841153695517e-05
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 0.0,
+      "etf_bp": 2.0,
+      "gain_bp": 6.129785653286035e-05
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 20.0,
+      "etf_bp": 2.0,
+      "gain_bp": -2.5749073984115967e-09
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 5.0,
+      "etf_bp": 0.0,
+      "gain_bp": -2.6927295948553365e-09
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 5.0,
+      "etf_bp": 5.0,
+      "gain_bp": -4.093578809261089e-10
+    },
+    {
+      "gamma": 2.5,
+      "uncertainty": 1.0,
+      "alpha_offset_bp": 0,
+      "fund_bp": 20.0,
+      "etf_bp": 5.0,
+      "gain_bp": 3.708038320837659e-10
+    }
+  ]
+}

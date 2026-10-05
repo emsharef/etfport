@@ -1,0 +1,16 @@
+{
+  "names": ["Active fund", "Equity ETF"],
+  "fund_indices": [0],
+  "holdings": [0.3, 0.7],
+  "cash": 0.0,
+  "mean": [0.013, 0.0118],
+  "covariance": [[0.007, 0.0064], [0.0064, 0.0065]],
+  "buy_costs": [0.0005, 0.0002],
+  "sell_costs": [0.0005, 0.0002],
+  "gamma": 2.5,
+  "discount": 1.0,
+  "scenarios": [
+    {"label": "higher estimate", "probability": 0.5, "gross_returns": [1.06, 1.04], "mean": [0.015, 0.012], "covariance": [[0.007, 0.0064], [0.0064, 0.0065]]},
+    {"label": "lower estimate", "probability": 0.5, "gross_returns": [0.96, 0.97], "mean": [0.009, 0.011], "covariance": [[0.007, 0.0064], [0.0064, 0.0065]]}
+  ]
+}

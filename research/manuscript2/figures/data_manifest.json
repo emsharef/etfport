@@ -1,0 +1,180 @@
+{
+  "description": "Decision-focused illustrations of existing results, with source hashes.\n\nNo new scenarios are optimized. Figure 1 evaluates the proved clipping rule at\nan explicitly chosen incumbent using saved grid edges. Figure 3 selects each\nshortcut's largest loss, normalized by initial wealth, from all 72 saved cases.\n",
+  "inputs": {
+    "experiments/036/summary.json": "99078ba56288a93e0c8c09d061f9360fdf4007d8795b293525bb161838fb23b0",
+    "experiments/050/summary.json": "fee67566aabbbe2ec9b1596f19d8e0078fc070e95e86bbc4c64711aa0fc2dfa4",
+    "manuscript2/figures/policy_analysis.json": "fb8524040bfd35101a6421d89330b866bacb28a384d6babe1ac7539ea2f3736b",
+    "experiments/048/summary.json": "2180bb4548a54f07297b8bc1b55b0659d1f605b67175a5de713188b48b9a1fa8",
+    "manuscript2/figures/round2_diagnostics.json": "5e05af719e428d132908615071de2bc00d933827f38947053ca7757bee2ef34a"
+  },
+  "figure1": {
+    "source_cell": {
+      "corr": 0.5,
+      "kA": [
+        0.001,
+        0.001
+      ],
+      "kE": [
+        0.0002,
+        0.0002
+      ],
+      "r": 0.0,
+      "step": 0.5,
+      "hfac": 1,
+      "hA": 0.0006932565205,
+      "hE": 0.0001125068478,
+      "cres": 0.02884935,
+      "rho": 0.5135284584,
+      "wA": 0.06932565205,
+      "sA": 50,
+      "sE": 49
+    },
+    "incumbent_fund_deviation": 0.0335,
+    "examples": [
+      {
+        "horizon": "Last date",
+        "etf_deviation": -0.0202512326,
+        "fund_deviation": 0.0335,
+        "upper": 0.03604933907,
+        "sale": 0.0
+      },
+      {
+        "horizon": "Eight dates left",
+        "etf_deviation": -0.02036373945,
+        "fund_deviation": 0.0335,
+        "upper": 0.02495723474,
+        "sale": 0.008542765260000001
+      },
+      {
+        "horizon": "Last date",
+        "etf_deviation": 0.0202512326,
+        "fund_deviation": 0.0335,
+        "upper": 0.03119654342,
+        "sale": 0.0023034565800000018
+      },
+      {
+        "horizon": "Eight dates left",
+        "etf_deviation": 0.02036373945,
+        "fund_deviation": 0.0335,
+        "upper": 0.02149095214,
+        "sale": 0.012009047860000004
+      }
+    ],
+    "note": "Panel A shows only the upper boundary, not the purchase boundary. Panel B uses nearest saved grid ETF coordinates; exact coordinates recorded here."
+  },
+  "figure2": {
+    "trades": [
+      [
+        -5.939693181744587e-14,
+        0.059940059940075785,
+        -0.05999999997947846
+      ],
+      [
+        2.871664017689568e-11,
+        -1.462165111210112e-11,
+        0
+      ],
+      [
+        0.06568938515694323,
+        -0.06608391598337399,
+        0
+      ]
+    ],
+    "marked_state_A": [
+      0.45800000000342517,
+      0.06560439557867007
+    ],
+    "marked_state_B": [
+      0.47688000000356634,
+      0.06608391605800251
+    ],
+    "sale_net_proceeds": 0.0660178320673906,
+    "purchase_including_cost": 0.06601783208272793
+  },
+  "posterior_comparison": {
+    "gain_wealth_bp": 18.722607389592522,
+    "different_nodes": 42
+  },
+  "figure3": {
+    "selection": "Maximum loss divided by initial wealth for each shortcut, over the entire registered grid; cases are diagnostic, not typical. Panel B has an essentially singleton second-stage feasible set under the exact exposure equality.",
+    "selected_case_indices": [
+      45,
+      21
+    ],
+    "metrics": {
+      "cells": 72,
+      "wealth_range": [
+        0.155,
+        1.9
+      ],
+      "myopic_max_loss_wealth_bp": 2.5871776539944054,
+      "exposure_first_max_loss_wealth_bp": 36.291912014996015,
+      "myopic_below_0.01_wealth_bp": 54,
+      "exposure_first_below_0.01_wealth_bp": 37,
+      "myopic_exact_classification": 24,
+      "myopic_inexact_below_0.0001_wealth_bp": 23,
+      "binding_cells": 15,
+      "binding_max_myopic_loss_wealth_bp": 0.0005847440307608894
+    }
+  },
+  "round2_diagnostics": {
+    "summary": {
+      "1e-07": {
+        "root_near_cells": 8,
+        "root_near_and_local_loss_above_001bp": 2,
+        "any_date_near_cells": 8,
+        "any_date_near_and_local_loss_above_001bp": 3,
+        "root_near_max_dynamic_loss_bp": 36.291912014996015,
+        "no_date_near_max_dynamic_loss_bp": 2.602902623506852
+      },
+      "1e-06": {
+        "root_near_cells": 8,
+        "root_near_and_local_loss_above_001bp": 2,
+        "any_date_near_cells": 8,
+        "any_date_near_and_local_loss_above_001bp": 3,
+        "root_near_max_dynamic_loss_bp": 36.291912014996015,
+        "no_date_near_max_dynamic_loss_bp": 2.602902623506852
+      },
+      "1e-05": {
+        "root_near_cells": 8,
+        "root_near_and_local_loss_above_001bp": 2,
+        "any_date_near_cells": 8,
+        "any_date_near_and_local_loss_above_001bp": 3,
+        "root_near_max_dynamic_loss_bp": 36.291912014996015,
+        "no_date_near_max_dynamic_loss_bp": 2.602902623506852
+      }
+    },
+    "figure3A": {
+      "case_index": 45,
+      "dynamic": {
+        "etf_sell_probability": 0.25,
+        "etf_buy_probability": 0.0,
+        "fund_at_cap_probability": 0.25,
+        "expected_etf_holding": 0.475561437473318,
+        "expected_etf_trade": -0.04036354485628061,
+        "S_E": -0.00316254675612218,
+        "root_etf_marginal": -0.001837453243893835,
+        "expected_tomorrow_cash_multiplier": 3.7270796090200524e-14
+      },
+      "myopic": {
+        "etf_sell_probability": 0.625,
+        "etf_buy_probability": 0.0,
+        "fund_at_cap_probability": 0.25,
+        "expected_etf_holding": 0.5324249844897744,
+        "expected_etf_trade": -0.08040520418903,
+        "S_E": -0.004727974627735701,
+        "root_etf_marginal": -0.00499999999998629,
+        "expected_tomorrow_cash_multiplier": 2.7650352842307908e-14
+      }
+    },
+    "figure3B": {
+      "case_index": 21,
+      "first_stage_exposure": 0.15499900019997412,
+      "joint_exposure": 0.15481903619121853,
+      "required_tolerance_wealth_bp": 11.610581210037695,
+      "root_width_wealth": 0.0,
+      "root_joint_loss_wealth_bp": 8.513648737641095,
+      "future_local_loss_wealth_bp": 25.086085428853018
+    }
+  }
+}

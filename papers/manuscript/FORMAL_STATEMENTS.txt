@@ -1,0 +1,99 @@
+EXACT FORMAL STATEMENTS FOR MANUSCRIPT2
+
+FORMAL SOURCE SNAPSHOT FOR MANUSCRIPT2
+
+The accompanying FORMAL_SOURCE_GUIDE.md maps article results to source files.
+Standalone contains mathematical statements; Novel contains proof modules;
+Upstream contains the explicit hypotheses for cited external mathematics.
+The conditional results remain conditional on those hypotheses.
+
+With the pinned Lean toolchain and dependencies installed, run in lean/:
+  lake build Audit
+This builds the formal source and checks project declarations for forbidden
+axiom dependencies. Dependencies are pinned in lake-manifest.json; Mathlib
+and its compiled cache are not bundled. Restoring them requires network access.
+No public archive or DOI is asserted for this local snapshot.
+
+NOTATION GUIDE
+AX13 is the explicit cited polyhedral optimality hypothesis.
+E0 is the feasible ETF-only set (funds fixed); F is the joint feasible set.
+Iset is the admissible common cash-multiplier set at the ETF optimum.
+Held is one fund's held-position condition with its box boundary signs.
+EtfTest states an equivalence conditional on AX13 and the listed inputs.
+
+For the two-date problem, X.1 is today's allocation and X.2 tomorrow's
+state-contingent allocation. P contains the finite-law inputs. Hyp checks
+model assumptions, Feas funding and boxes, and Optimal joint optimality.
+Slope selects the proportional-cost subgradient; BoxSign encodes boundaries.
+The same eta1 and t1 appear in Tomorrow and Root. Lines existentially
+quantifies one compatible family. Sufficient has no upstream KKT assumption;
+Necessary explicitly takes AX13. Full definitions and proof modules are
+included in formal-source.zip. Excerpts below are copied, not rewritten.
+
+
+SOURCE: lean/Standalone/M7FundHoldBuySellCriterion.lean
+SHA256: b1356e32e22987637965e26652860d8ad26f27fbcce03f5e0741e4736c2cd288
+
+def Iset (D : Data m n K S) (θ : Params m K) (xE : Inst m n → ℝ) : Set ℝ :=
+  {η | 0 ≤ η ∧ η * cash D xE = 0 ∧ ∀ j, ∃ t, InSlope D xE (Sum.inr j) t ∧
+    BoxSign (D.wbar (Sum.inr j)) (xE (Sum.inr j)) (grad D θ xE (Sum.inr j) - η - (1 + η) * t)}
+
+/-- Fund `i`'s held condition at `x_E`: a zero-trade slope `t ∈ [-κ⁻, κ⁺]` with the box signs. -/
+def Held (D : Data m n K S) (θ : Params m K) (xE : Inst m n → ℝ) (η : ℝ) (i : Fin m) : Prop :=
+  ∃ t, -D.kminus (Sum.inl i) ≤ t ∧ t ≤ D.kplus (Sum.inl i) ∧
+    BoxSign (D.wbar (Sum.inl i)) (xE (Sum.inl i)) (grad D θ xE (Sum.inl i) - η - (1 + η) * t)
+
+/-- Part 2 (given AX-13), the ETF-optimized test: with `x_E` the ETF-only optimum and `w` the full
+optimum, no fund is traded at `w` iff some `η ∈ I` makes every fund's held condition hold at `x_E`. -/
+def EtfTest : Prop :=
+  AX13 → ∀ (m n K : ℕ) (S : Type) [Fintype S] (D : Data m n K S) (θ : Params m K),
+    Inputs D → (covariance D).PosDef → 0 < D.gamma →
+    ∀ xE ∈ E0 D, IsMaxOn (fun w => score D w θ) (E0 D) xE →
+    ∀ w ∈ F D, IsMaxOn (fun w => score D w θ) (F D) w →
+      (active w = active (w0 D) ↔ ∃ η ∈ Iset D θ xE, ∀ i, Held D θ xE η i)
+
+
+
+SOURCE: lean/Standalone/M7TwoReviewsBindingBudget.lean
+SHA256: 5dd30325ad511737b9766dfa5126e3798e0b98f530db0cfb5a9af8ca8a653571
+
+def BoxSign (xbar x R : ℝ) : Prop := (x < xbar → R ≤ 0) ∧ (0 < x → 0 ≤ R)
+
+/-- The dynamic cash price `η̂_0 = η_0 + β Σ_z q(z) η_1(z)`. -/
+def etaHat (P : Two ι Z) (η0 : ℝ) (η1 : Z → ℝ) : ℝ := η0 + P.beta * ∑ z, P.q z * η1 z
+
+/-- The incumbent value of a unit of `i` carried into `z`: `s_i(z) = η_1(z) + (1 + η_1(z)) t_{1,i}(z)`. -/
+def sval (η1 : Z → ℝ) (t1 : Z → ι → ℝ) (z : Z) (i : ι) : ℝ := η1 z + (1 + η1 z) * t1 z i
+
+/-- The discounted expected marked incumbent value `S_i = β Σ_z q(z) g_i(z) s_i(z)`. -/
+def Sinc (P : Two ι Z) (η1 : Z → ℝ) (t1 : Z → ι → ℝ) (i : ι) : ℝ :=
+  P.beta * ∑ z, P.q z * P.g z i * sval η1 t1 z i
+
+/-- Tomorrow's lines in every state: `η_1(z) ≥ 0` with `η_1(z) h⁺_1(z) = 0`, slopes
+`t_1(z) ∈ T(u_1(z))`, and the box signs of `g_{1,i} - η_1 - (1 + η_1) t_{1,i}`. -/
+def Tomorrow (P : Two ι Z) (X : (ι → ℝ) × (Z → ι → ℝ)) (η1 : Z → ℝ) (t1 : Z → ι → ℝ) : Prop :=
+  ∀ z, 0 ≤ η1 z ∧ η1 z * h1 P X.1 X.2 z = 0 ∧
+    ∀ i, Slope (P.kp i) (P.km i) (X.2 z i - carry P z X.1 i) (t1 z i) ∧
+      BoxSign (P.xbar i) (X.2 z i) (g1 P z (X.2 z) i - η1 z - (1 + η1 z) * t1 z i)
+
+/-- Today's lines with the dynamic cash price and the incumbent values: `η_0 ≥ 0` with
+`η_0 h⁺_0 = 0`, slopes `t_0 ∈ T(u_0)`, and the box signs of `g_{0,i} + S_i - η̂_0 - (1 + η̂_0) t_{0,i}`. -/
+def Root (P : Two ι Z) (X : (ι → ℝ) × (Z → ι → ℝ)) (η0 : ℝ) (η1 : Z → ℝ) (t0 : ι → ℝ)
+    (t1 : Z → ι → ℝ) : Prop :=
+  0 ≤ η0 ∧ η0 * h0 P X.1 = 0 ∧
+    ∀ i, Slope (P.kp i) (P.km i) (X.1 i - P.xm i) (t0 i) ∧
+      BoxSign (P.xbar i) (X.1 i)
+        (g0 P X.1 i + Sinc P η1 t1 i - etaHat P η0 η1 - (1 + etaHat P η0 η1) * t0 i)
+
+/-- Part 2's lines: multipliers and slopes, with the same `t_1(z)` in both sets of lines. -/
+def Lines (P : Two ι Z) (X : (ι → ℝ) × (Z → ι → ℝ)) : Prop :=
+  ∃ η0 η1 t0 t1, Tomorrow P X η1 t1 ∧ Root P X η0 η1 t0 t1
+
+/-- Part 2, sufficiency (no citation): a feasible policy satisfying the lines is optimal. -/
+def Sufficient : Prop :=
+  ∀ (ι Z : Type) [Fintype ι] [Fintype Z] (P : Two ι Z), Hyp P → ∀ X ∈ Feas P, Lines P X → Optimal P X
+
+/-- Part 2, necessity (under AX-13): an optimal policy satisfies the lines. -/
+def Necessary : Prop :=
+  Standalone.M7TwoStageExactnessLoss.AX13 → ∀ (ι Z : Type) [Fintype ι] [Fintype Z] (P : Two ι Z), Hyp P → ∀ X, Optimal P X → Lines P X
+

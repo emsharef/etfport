@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etfport"
+version = "0.1.0"
+description = "Funded portfolio allocation across active funds and ETFs with uncertain forecasts"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md"]
+authors = [{name = "Emmanuel Sharef"}]
+dependencies = ["numpy>=2.0,<3", "scipy>=1.14,<2", "cvxpy>=1.6,<2", "clarabel>=0.9,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "build>=1.2,<2"]
+research = ["matplotlib>=3.9,<4", "pandas>=2.2,<4", "pyyaml>=6,<7"]
+
+[project.scripts]
+etfport = "etfport.cli:main"
+
+[project.urls]
+Repository = "https://github.com/emsharef/etfport"
+Documentation = "https://github.com/emsharef/etfport/blob/main/docs/using-the-package.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

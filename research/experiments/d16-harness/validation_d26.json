@@ -1,0 +1,39 @@
+{
+ "a_observe_factor": {
+  "vs054_x_dyn": 1.4654943925052066e-14,
+  "vs056_x_dyn": 2.6811995401665456e-09
+ },
+ "b_decoupled_filter": {
+  "P_diag_err": 3.049318610115481e-20,
+  "P_offdiag": 3.3281243349464257e-21,
+  "m1_err": 5.551115123125783e-17
+ },
+ "c_laws": {
+  "product": {
+   "theta_atoms": 32,
+   "z_atoms": 128,
+   "states": 4096,
+   "theta_cov": 0.0,
+   "z_cov_mean": 3.903127820947816e-18,
+   "y_mean": 2.463307335887066e-16,
+   "y_cov": 5.646524914304507e-16,
+   "min_gross": 0.892
+  },
+  "axis": {
+   "theta_atoms": 10,
+   "z_atoms": 14,
+   "states": 140,
+   "theta_cov": 0.0,
+   "z_cov_mean": 0.0,
+   "y_mean": 2.42861286636753e-17,
+   "y_cov": 1.1777905040144532e-14,
+   "min_gross": 0.7918595552273338
+  }
+ },
+ "d_relaxed_tomorrow": {
+  "node_err": 2.583460889105105e-07,
+  "states": 4096,
+  "states_with_negative_cash": 4096,
+  "root_cash": 2.5261910618912253e-17
+ }
+}

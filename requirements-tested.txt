@@ -1,0 +1,12 @@
+# Direct versions used for the release checks; the preserved lab lock is research/uv.lock.
+numpy==2.5.3
+scipy==1.18.1
+cvxpy==1.9.3
+clarabel==0.11.1
+pytest==9.1.1
+build==1.6.1
+setuptools==84.0.0
+wheel==0.48.0
+matplotlib==3.11.2
+pandas==3.0.6
+PyYAML==6.0.3

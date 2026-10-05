@@ -1,0 +1,30 @@
+{
+  "figure2": {
+    "scenarios": [
+      "premium_down_persistent",
+      "alpha_up",
+      "alpha_down"
+    ],
+    "source": "analysis/forecast_revision/results.json",
+    "measure": "current trades, percent of initial wealth"
+  },
+  "figure3": {
+    "style_prior_bp": 20,
+    "revisions_bp": [
+      -40,
+      -20,
+      -10,
+      0,
+      10,
+      20,
+      40
+    ],
+    "source": "analysis/forecast_extension/results.json",
+    "measure": "style factor exposure per dollar of initial wealth"
+  },
+  "source_hashes": {
+    "manuscript2/analysis/forecast_extension/results.json": "d386e54ce1de2fefbb4cda47ccbfb1e1195df0c9a3b4ba797b19b5c067477672",
+    "manuscript2/analysis/forecast_revision/results.json": "1bd44e30e8b7936091cdfb48d6b13bc0b3f202d5b0b8691df5fba6594c4aaa65",
+    "manuscript2/analysis/forecast_extension/report.py": "aa9259df92700555577c52abb10028f0dbd4dae71caf4856a0e23032cc451533"
+  }
+}

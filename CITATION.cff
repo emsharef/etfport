@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the relevant manuscript and the software version/commit; see CITATION.md."
+type: software
+title: "ETFPort: portfolio allocation across active funds and ETFs"
+authors:
+  - family-names: Sharef
+    given-names: Emmanuel
+version: 0.1.0
+date-released: 2026-10-05
+url: "https://github.com/emsharef/etfport"
+repository-code: "https://github.com/emsharef/etfport"
+license: MIT

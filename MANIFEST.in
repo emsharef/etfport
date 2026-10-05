@@ -1,0 +1,3 @@
+include LICENSE NOTICE.md CITATION.md
+recursive-include tests *.py *.json
+recursive-include examples *.json

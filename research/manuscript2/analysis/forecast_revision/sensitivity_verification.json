@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": 78,
+    "scenario": "alpha_down",
+    "fund_bp": 20.0,
+    "etf_bp": 2.0,
+    "gain_bp": 2.9459101824613754e-10,
+    "max_holding_error": 8.984823357538474e-09,
+    "gain_error_bp": 1.242648295374238e-08,
+    "max_value_error_bp": 9.213310647737671e-08,
+    "original_warning_count": 24,
+    "warnings": []
+  },
+  {
+    "case_id": 99,
+    "scenario": "unchanged",
+    "fund_bp": 20.0,
+    "etf_bp": 5.0,
+    "gain_bp": -2.1297807961673243e-10,
+    "max_holding_error": 9.018027269380724e-09,
+    "gain_error_bp": 5.837819117004983e-10,
+    "max_value_error_bp": 5.7513886986271245e-09,
+    "original_warning_count": 17,
+    "warnings": []
+  },
+  {
+    "case_id": 101,
+    "scenario": "premium_up_persistent",
+    "fund_bp": 20.0,
+    "etf_bp": 5.0,
+    "gain_bp": 0.2716247566778236,
+    "max_holding_error": 8.72592237355363e-09,
+    "gain_error_bp": 3.1886855822449434e-08,
+    "max_value_error_bp": 1.0266140293424542e-07,
+    "original_warning_count": 1,
+    "warnings": []
+  },
+  {
+    "case_id": 103,
+    "scenario": "premium_up_reverting",
+    "fund_bp": 20.0,
+    "etf_bp": 5.0,
+    "gain_bp": 0.14217868605906858,
+    "max_holding_error": 8.72592237355363e-09,
+    "gain_error_bp": 2.399930565388786e-08,
+    "max_value_error_bp": 9.295577285683976e-08,
+    "original_warning_count": 1,
+    "warnings": []
+  },
+  {
+    "case_id": 107,
+    "scenario": "anticipated_up",
+    "fund_bp": 20.0,
+    "etf_bp": 5.0,
+    "gain_bp": 2.587086100902525e-10,
+    "max_holding_error": 9.018027269380724e-09,
+    "gain_error_bp": 2.432628321002994e-09,
+    "max_value_error_bp": 5.8127554325437814e-08,
+    "original_warning_count": 47,
+    "warnings": []
+  },
+  {
+    "case_id": 74,
+    "scenario": "premium_up_persistent",
+    "fund_bp": 20.0,
+    "etf_bp": 2.0,
+    "gain_bp": 0.39172013365615044,
+    "max_holding_error": 8.782649663086062e-09,
+    "gain_error_bp": 2.58034162925469e-08,
+    "max_value_error_bp": 1.0031703823187854e-07,
+    "original_warning_count": 0,
+    "warnings": []
+  }
+]

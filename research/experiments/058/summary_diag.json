@@ -1,0 +1,1806 @@
+{
+"results": [
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "base",
+"myopic": {
+"E_need": 1.2403492355217063,
+"E_relaxed_purchases": 0.015672756768804096,
+"max_need": 1.4793450566893487,
+"max_relaxed_purchases": 0.13870977159415557,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.232495271962059,
+"E_relaxed_purchases": 0.014362710280241893,
+"max_need": 1.4702055247540335,
+"max_relaxed_purchases": 0.12633853411479767,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "pred_alpha+0.004",
+"myopic": {
+"E_need": 1.4729288395685391,
+"E_relaxed_purchases": 0.015672757131505857,
+"max_need": 1.712198533444672,
+"max_relaxed_purchases": 0.13870977159436604,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4650748759198753,
+"E_relaxed_purchases": 0.014362710284750098,
+"max_need": 1.7030590014125373,
+"max_relaxed_purchases": 0.12633853403964662,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "pred_alpha-0.004",
+"myopic": {
+"E_need": 1.010669948732528,
+"E_relaxed_purchases": 0.015672756943222208,
+"max_need": 1.2499396426086609,
+"max_relaxed_purchases": 0.13870977176830995,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.002815985167483,
+"E_relaxed_purchases": 0.014362710410708909,
+"max_need": 1.2408001106665532,
+"max_relaxed_purchases": 0.12633853430916528,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "pred_lambda+0.005",
+"myopic": {
+"E_need": 1.4618277187121054,
+"E_relaxed_purchases": 0.04950439701921687,
+"max_need": 1.6114463674689559,
+"max_relaxed_purchases": 0.12356999781679569,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.447957253658214,
+"E_relaxed_purchases": 0.04309674512351788,
+"max_need": 1.596136210535236,
+"max_relaxed_purchases": 0.11064691109998,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "pred_lambda-0.005",
+"myopic": {
+"E_need": 1.0350047479499538,
+"E_relaxed_purchases": 0.00681188015626279,
+"max_need": 1.1846233967068045,
+"max_relaxed_purchases": 0.07776077046288464,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.0312433809189252,
+"E_relaxed_purchases": 0.0053251629305411195,
+"max_need": 1.1792894394041333,
+"max_relaxed_purchases": 0.06262747372524731,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "unc x0.25",
+"myopic": {
+"E_need": 1.2417923010521048,
+"E_relaxed_purchases": 0.015672756776789722,
+"max_need": 1.4810609044673395,
+"max_relaxed_purchases": 0.13870977159418751,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.233938337596931,
+"E_relaxed_purchases": 0.014362710296793705,
+"max_need": 1.47192137264779,
+"max_relaxed_purchases": 0.12633853422362773,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "unc x4",
+"myopic": {
+"E_need": 1.2350138171511325,
+"E_relaxed_purchases": 0.017467399625018434,
+"max_need": 1.4997701559248087,
+"max_relaxed_purchases": 0.2512499999609067,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.227309960983304,
+"E_relaxed_purchases": 0.016179679190303477,
+"max_need": 1.4909218450157569,
+"max_relaxed_purchases": 0.25124999998631425,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "pred_alpha+0.004 unc x4",
+"myopic": {
+"E_need": 1.4711960937825537,
+"E_relaxed_purchases": 0.01567275706578507,
+"max_need": 1.7122477322809924,
+"max_relaxed_purchases": 0.13870977159427791,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4633421302257803,
+"E_relaxed_purchases": 0.014362710305968538,
+"max_need": 1.7032310363737504,
+"max_relaxed_purchases": 0.12633853412529727,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "pred_alpha+0.008",
+"myopic": {
+"E_need": 1.7040582849865449,
+"E_relaxed_purchases": 0.015672757077335054,
+"max_need": 1.9433279788626772,
+"max_relaxed_purchases": 0.138709771593796,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.696204321398172,
+"E_relaxed_purchases": 0.01436271028438934,
+"max_need": 1.9341884468958237,
+"max_relaxed_purchases": 0.12633853408812698,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "q_alpha 1e-6",
+"myopic": {
+"E_need": 1.24163819496429,
+"E_relaxed_purchases": 0.01567275677674249,
+"max_need": 1.480877549280862,
+"max_relaxed_purchases": 0.138709771594157,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2337842315087653,
+"E_relaxed_purchases": 0.014362710296618182,
+"max_need": 1.4717380174609418,
+"max_relaxed_purchases": 0.12633853422340735,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "fund rates x2",
+"myopic": {
+"E_need": 0.637897164612682,
+"E_relaxed_purchases": 0.015672756478487794,
+"max_need": 0.8703702781733373,
+"max_relaxed_purchases": 0.13870977164404408,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 0.6300432008593133,
+"E_relaxed_purchases": 0.014362710278168862,
+"max_need": 0.8612307460264552,
+"max_relaxed_purchases": 0.12633853398776818,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "ETF rates x4",
+"myopic": {
+"E_need": 1.221655395859504,
+"E_relaxed_purchases": 0.011562960754510429,
+"max_need": 1.4710651366771146,
+"max_relaxed_purchases": 0.10584162280531803,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.1736919660712823,
+"E_relaxed_purchases": 0.005102306399426846,
+"max_need": 1.4164950983687015,
+"max_relaxed_purchases": 0.04740823430111912,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "cash",
+"setting": "ETF rates x0.25",
+"myopic": {
+"E_need": 1.2450198395050427,
+"E_relaxed_purchases": 0.01786083758436411,
+"max_need": 1.4814150807694122,
+"max_relaxed_purchases": 0.14691754083530587,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2452761175018048,
+"E_relaxed_purchases": 0.01779619237004349,
+"max_need": 1.4815459701623712,
+"max_relaxed_purchases": 0.1457109055270597,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "base",
+"myopic": {
+"E_need": 1.282368633495379,
+"E_relaxed_purchases": 0.017626420426958084,
+"max_need": 1.5229308923528078,
+"max_relaxed_purchases": 0.1594082494889958,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.264848724212537,
+"E_relaxed_purchases": 0.015376295157240611,
+"max_need": 1.5034762948371077,
+"max_relaxed_purchases": 0.14032410372999413,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "pred_alpha+0.004",
+"myopic": {
+"E_need": 1.514948237542212,
+"E_relaxed_purchases": 0.01762642068366073,
+"max_need": 1.7557843691081314,
+"max_relaxed_purchases": 0.15940824949239404,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5072076581752647,
+"E_relaxed_purchases": 0.015535295595334134,
+"max_need": 1.7460685161425427,
+"max_relaxed_purchases": 0.1403998644051853,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "pred_alpha-0.004",
+"myopic": {
+"E_need": 1.052689346706201,
+"E_relaxed_purchases": 0.058326325518922376,
+"max_need": 1.2935254782721202,
+"max_relaxed_purchases": 0.2154535754698936,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.021684191582319,
+"E_relaxed_purchases": 0.0149181548614543,
+"max_need": 1.26058298232757,
+"max_relaxed_purchases": 0.13837930865124837,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "pred_lambda+0.005",
+"myopic": {
+"E_need": 1.5038471166857779,
+"E_relaxed_purchases": 0.046929576307000356,
+"max_need": 1.6550322031324152,
+"max_relaxed_purchases": 0.1313986700978598,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4766102211663084,
+"E_relaxed_purchases": 0.034369338060001725,
+"max_need": 1.6256719639029475,
+"max_relaxed_purchases": 0.11375834521310056,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "pred_lambda-0.005",
+"myopic": {
+"E_need": 1.0770241459236267,
+"E_relaxed_purchases": 0.010538098380329528,
+"max_need": 1.2282092323702638,
+"max_relaxed_purchases": 0.0984643136258999,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.0596328052663464,
+"E_relaxed_purchases": 0.006577775307831716,
+"max_need": 1.2085585976058526,
+"max_relaxed_purchases": 0.07625409280201159,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "unc x0.25",
+"myopic": {
+"E_need": 1.2838116990257582,
+"E_relaxed_purchases": 0.017626420295655726,
+"max_need": 1.5246467401307755,
+"max_relaxed_purchases": 0.15940824948889845,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2662921927743813,
+"E_relaxed_purchases": 0.015376346654004783,
+"max_need": 1.5051925451728396,
+"max_relaxed_purchases": 0.14032409915834837,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "unc x4",
+"myopic": {
+"E_need": 1.27762487558644,
+"E_relaxed_purchases": 0.029435477278787377,
+"max_need": 1.5416332446864194,
+"max_relaxed_purchases": 0.15940824948932236,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2594395658969013,
+"E_relaxed_purchases": 0.023136587499017005,
+"max_need": 1.5216906949912976,
+"max_relaxed_purchases": 0.14244191255080146,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "pred_alpha+0.004 unc x4",
+"myopic": {
+"E_need": 1.5132154917562919,
+"E_relaxed_purchases": 0.017630366766851684,
+"max_need": 1.754110821042603,
+"max_relaxed_purchases": 0.15940824949242546,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5054552150464584,
+"E_relaxed_purchases": 0.015532776881975968,
+"max_need": 1.7445640183038718,
+"max_relaxed_purchases": 0.14039997324740341,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "pred_alpha+0.008",
+"myopic": {
+"E_need": 1.7460776829602174,
+"E_relaxed_purchases": 0.017626420780558014,
+"max_need": 1.9869138145261367,
+"max_relaxed_purchases": 0.15940824947846377,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.738337181480399,
+"E_relaxed_purchases": 0.015535305593181472,
+"max_need": 1.9771980393947701,
+"max_relaxed_purchases": 0.14039986387567815,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "q_alpha 1e-6",
+"myopic": {
+"E_need": 1.283657592937963,
+"E_relaxed_purchases": 0.017626420554128476,
+"max_need": 1.5244633849443212,
+"max_relaxed_purchases": 0.15940824948891202,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2661376786474654,
+"E_relaxed_purchases": 0.0153762945154905,
+"max_need": 1.5050087824275717,
+"max_relaxed_purchases": 0.14032410379476717,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "fund rates x2",
+"myopic": {
+"E_need": 0.7737842593337012,
+"E_relaxed_purchases": 0.017626420840907188,
+"max_need": 0.9776573713398513,
+"max_relaxed_purchases": 0.15940824941020915,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 0.7660438045575015,
+"E_relaxed_purchases": 0.015535311406460512,
+"max_need": 0.9679416428879799,
+"max_relaxed_purchases": 0.14039986355783773,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "ETF rates x4",
+"myopic": {
+"E_need": 1.2570581667381404,
+"E_relaxed_purchases": 0.017332864768767553,
+"max_need": 1.5132072627286102,
+"max_relaxed_purchases": 0.17619255190364883,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2050829086327952,
+"E_relaxed_purchases": 0.005907297138750691,
+"max_need": 1.4513646686117547,
+"max_relaxed_purchases": 0.08094247832272629,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance",
+"setting": "ETF rates x0.25",
+"myopic": {
+"E_need": 1.2886962743681816,
+"E_relaxed_purchases": 0.019439715087716223,
+"max_need": 1.525366172823765,
+"max_relaxed_purchases": 0.15521684846340109,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2783970114266447,
+"E_relaxed_purchases": 0.018987137730016188,
+"max_need": 1.51484977227316,
+"max_relaxed_purchases": 0.15264837048340674,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "base",
+"myopic": {
+"E_need": 1.2823686335066538,
+"E_relaxed_purchases": 0.017626420429772822,
+"max_need": 1.5229308923653861,
+"max_relaxed_purchases": 0.15940824950152296,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2648487726342066,
+"E_relaxed_purchases": 0.015376301335561561,
+"max_need": 1.5034763432035843,
+"max_relaxed_purchases": 0.1403241031863837,
+"relaxed_shortfall_states": 1,
+"E_relaxed_shortfall": 8.158320494644811e-06,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha+0.004",
+"myopic": {
+"E_need": 1.5149482375534866,
+"E_relaxed_purchases": 0.01762642068647103,
+"max_need": 1.7557843691207093,
+"max_relaxed_purchases": 0.15940824950492113,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5072076558624767,
+"E_relaxed_purchases": 0.015535295299668987,
+"max_need": 1.7460685138315328,
+"max_relaxed_purchases": 0.14039986442229568,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha-0.004",
+"myopic": {
+"E_need": 1.0526893467174756,
+"E_relaxed_purchases": 0.05832632552729526,
+"max_need": 1.2935254782846983,
+"max_relaxed_purchases": 0.21545357548056507,
+"relaxed_shortfall_states": 1,
+"E_relaxed_shortfall": 2.3254152324901632e-05,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.0216842066867269,
+"E_relaxed_purchases": 0.014918156760783556,
+"max_need": 1.2605829973791363,
+"max_relaxed_purchases": 0.13837930823603276,
+"relaxed_shortfall_states": 11,
+"E_relaxed_shortfall": 0.0006035136814112344,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "pred_lambda+0.005",
+"myopic": {
+"E_need": 1.5038471166970528,
+"E_relaxed_purchases": 0.046929576317023367,
+"max_need": 1.6550322031449933,
+"max_relaxed_purchases": 0.13139867010860562,
+"relaxed_shortfall_states": 10,
+"E_relaxed_shortfall": 0.0026848798729185615,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4766102104772423,
+"E_relaxed_purchases": 0.03436934184564675,
+"max_need": 1.6256719497268068,
+"max_relaxed_purchases": 0.11375833221892077,
+"relaxed_shortfall_states": 18,
+"E_relaxed_shortfall": 0.0035349344731636077,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "pred_lambda-0.005",
+"myopic": {
+"E_need": 1.0770241459349013,
+"E_relaxed_purchases": 0.01053809838517216,
+"max_need": 1.228209232382842,
+"max_relaxed_purchases": 0.09846431363842632,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.0596328151003198,
+"E_relaxed_purchases": 0.006577777021698554,
+"max_need": 1.2085586089111209,
+"max_relaxed_purchases": 0.07625410695303857,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "unc x0.25",
+"myopic": {
+"E_need": 1.2838116990370723,
+"E_relaxed_purchases": 0.017626420298482673,
+"max_need": 1.5246467401433974,
+"max_relaxed_purchases": 0.15940824950146698,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2662922180440144,
+"E_relaxed_purchases": 0.015376349879529674,
+"max_need": 1.5051925704231435,
+"max_relaxed_purchases": 0.1403240989670498,
+"relaxed_shortfall_states": 1,
+"E_relaxed_shortfall": 8.158356806641144e-06,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "unc x4",
+"myopic": {
+"E_need": 1.2776248755975612,
+"E_relaxed_purchases": 0.029435477282932096,
+"max_need": 1.5416332446987284,
+"max_relaxed_purchases": 0.15940824950170757,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2594395554863387,
+"E_relaxed_purchases": 0.023136585420895008,
+"max_need": 1.521690684590252,
+"max_relaxed_purchases": 0.14244191259173294,
+"relaxed_shortfall_states": 1,
+"E_relaxed_shortfall": 8.004312035044303e-06,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha+0.004 unc x4",
+"myopic": {
+"E_need": 1.5132154917674328,
+"E_relaxed_purchases": 0.017630366769776334,
+"max_need": 1.7541108210549123,
+"max_relaxed_purchases": 0.15940824950481067,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5054552130512533,
+"E_relaxed_purchases": 0.015532776626879801,
+"max_need": 1.7445640163098728,
+"max_relaxed_purchases": 0.1403999732602342,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha+0.008",
+"myopic": {
+"E_need": 1.7460776829714921,
+"E_relaxed_purchases": 0.017626420783375975,
+"max_need": 1.9869138145387146,
+"max_relaxed_purchases": 0.1594082494909903,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.7383371831984717,
+"E_relaxed_purchases": 0.015535305812852479,
+"max_need": 1.9771980411117478,
+"max_relaxed_purchases": 0.14039986386513925,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "q_alpha 1e-6",
+"myopic": {
+"E_need": 1.2836575929492375,
+"E_relaxed_purchases": 0.017626420556943294,
+"max_need": 1.5244633849568991,
+"max_relaxed_purchases": 0.1594082495014392,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2661377310973052,
+"E_relaxed_purchases": 0.015376301220252587,
+"max_need": 1.505008834816719,
+"max_relaxed_purchases": 0.1403241031970976,
+"relaxed_shortfall_states": 1,
+"E_relaxed_shortfall": 8.158320400860098e-06,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "fund rates x2",
+"myopic": {
+"E_need": 0.7737842593761561,
+"E_relaxed_purchases": 0.017626420851420518,
+"max_need": 0.9776573713872674,
+"max_relaxed_purchases": 0.15940824945807344,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 0.7660438021494436,
+"E_relaxed_purchases": 0.015535311098520863,
+"max_need": 0.9679416404811529,
+"max_relaxed_purchases": 0.14039986356968126,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "ETF rates x4",
+"myopic": {
+"E_need": 1.2570581667655452,
+"E_relaxed_purchases": 0.017332864779356173,
+"max_need": 1.5132072627605222,
+"max_relaxed_purchases": 0.17619255194703037,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.205082908678798,
+"E_relaxed_purchases": 0.005907297141338369,
+"max_need": 1.4513646686577415,
+"max_relaxed_purchases": 0.0809424783225747,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "equity-style",
+"start": "rebalance-tight",
+"setting": "ETF rates x0.25",
+"myopic": {
+"E_need": 1.2886962744192711,
+"E_relaxed_purchases": 0.019439715100065195,
+"max_need": 1.5253661728803636,
+"max_relaxed_purchases": 0.15521684851635195,
+"relaxed_shortfall_states": 4,
+"E_relaxed_shortfall": 0.00012644754460396906,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2783970209943705,
+"E_relaxed_purchases": 0.018987139689790995,
+"max_need": 1.5148497826787373,
+"max_relaxed_purchases": 0.15264837854394814,
+"relaxed_shortfall_states": 19,
+"E_relaxed_shortfall": 0.0011454884161403868,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "base",
+"myopic": {
+"E_need": 1.4382554657462654,
+"E_relaxed_purchases": 0.009077309139438956,
+"max_need": 1.6904035397927377,
+"max_relaxed_purchases": 0.06905971680041782,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4172783697915343,
+"E_relaxed_purchases": 0.0048797308180977845,
+"max_need": 1.669914055639758,
+"max_relaxed_purchases": 0.05696192669248362,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "pred_alpha+0.004",
+"myopic": {
+"E_need": 1.6715463107480235,
+"E_relaxed_purchases": 0.06428249883663747,
+"max_need": 1.9239674798798514,
+"max_relaxed_purchases": 0.13217852971915842,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.6247993514044439,
+"E_relaxed_purchases": 0.019594561826308598,
+"max_need": 1.8768262308087054,
+"max_relaxed_purchases": 0.09641788937345891,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "pred_alpha-0.004",
+"myopic": {
+"E_need": 1.2107471158479757,
+"E_relaxed_purchases": 0.0017741090920612972,
+"max_need": 1.4631682849798036,
+"max_relaxed_purchases": 0.028322604742493308,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2243961187558003,
+"E_relaxed_purchases": 0.0022566868895314363,
+"max_need": 1.4792459761802315,
+"max_relaxed_purchases": 0.035091817388411196,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "pred_lambda+0.005",
+"myopic": {
+"E_need": 1.6568918246906728,
+"E_relaxed_purchases": 0.04780603022252778,
+"max_need": 1.8203005585292338,
+"max_relaxed_purchases": 0.12129590141026433,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.6162635685933404,
+"E_relaxed_purchases": 0.010583734858746512,
+"max_need": 1.7798196905759078,
+"max_relaxed_purchases": 0.0907871621604182,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "pred_lambda-0.005",
+"myopic": {
+"E_need": 1.2304686636448965,
+"E_relaxed_purchases": 0.0028000225719755235,
+"max_need": 1.3932699177109114,
+"max_relaxed_purchases": 0.040237907286646356,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.2259244380571954,
+"E_relaxed_purchases": 0.0028812277873586823,
+"max_need": 1.3888808990848314,
+"max_relaxed_purchases": 0.04249734244863281,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "unc x0.25",
+"myopic": {
+"E_need": 1.440613917307614,
+"E_relaxed_purchases": 0.006959581957266258,
+"max_need": 1.6929613633300158,
+"max_relaxed_purchases": 0.06907927539079378,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4189252557530914,
+"E_relaxed_purchases": 0.00562868928449069,
+"max_need": 1.6715668129093058,
+"max_relaxed_purchases": 0.05605368463511661,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "unc x4",
+"myopic": {
+"E_need": 1.4296561989800647,
+"E_relaxed_purchases": 0.019819462997178107,
+"max_need": 1.7040115853949922,
+"max_relaxed_purchases": 0.09689377837540736,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4106462237870208,
+"E_relaxed_purchases": 0.013323739434634623,
+"max_need": 1.6849814709503503,
+"max_relaxed_purchases": 0.08051094249808384,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "pred_alpha+0.004 unc x4",
+"myopic": {
+"E_need": 1.6705259299018707,
+"E_relaxed_purchases": 0.0635743165150129,
+"max_need": 1.9229751060843383,
+"max_relaxed_purchases": 0.15236974183197927,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.625825685426423,
+"E_relaxed_purchases": 0.02248791311969073,
+"max_need": 1.8778894334542362,
+"max_relaxed_purchases": 0.11680535296501467,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "pred_alpha+0.008",
+"myopic": {
+"E_need": 1.9019459081980474,
+"E_relaxed_purchases": 0.11282993395075984,
+"max_need": 2.1543670773298755,
+"max_relaxed_purchases": 0.19032566528151354,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.8544423414387632,
+"E_relaxed_purchases": 0.06060598089351418,
+"max_need": 2.106512729908049,
+"max_relaxed_purchases": 0.15404580970470283,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "q_alpha 1e-6",
+"myopic": {
+"E_need": 1.440825438845583,
+"E_relaxed_purchases": 0.007820550329905047,
+"max_need": 1.6932163546340806,
+"max_relaxed_purchases": 0.06950284133115513,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.418913289861155,
+"E_relaxed_purchases": 0.0048355825216387155,
+"max_need": 1.6716235624349736,
+"max_relaxed_purchases": 0.05641753610101859,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "fund rates x2",
+"myopic": {
+"E_need": 1.277655742772079,
+"E_relaxed_purchases": 0.011005477374866552,
+"max_need": 1.5361017507240884,
+"max_relaxed_purchases": 0.05744835005746211,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.207955232616125,
+"E_relaxed_purchases": 3.505367288763582e-05,
+"max_need": 1.4623417387462145,
+"max_relaxed_purchases": 0.0020738505652660995,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "ETF rates x4",
+"myopic": {
+"E_need": 0.997472067890469,
+"E_relaxed_purchases": 0.009077311354055905,
+"max_need": 1.086488143981221,
+"max_relaxed_purchases": 0.06905971658920372,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 0.9764949738436406,
+"E_relaxed_purchases": 0.004879731087272312,
+"max_need": 1.0659986618235875,
+"max_relaxed_purchases": 0.05696192783470316,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "cash",
+"setting": "ETF rates x0.25",
+"myopic": {
+"E_need": 2.061881094779954,
+"E_relaxed_purchases": 0.013203540930117112,
+"max_need": 2.31397602123798,
+"max_relaxed_purchases": 0.07338014938377581,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 2.0411556266509905,
+"E_relaxed_purchases": 0.006594562250817346,
+"max_need": 2.293735541240715,
+"max_relaxed_purchases": 0.05710933995028104,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "base",
+"myopic": {
+"E_need": 1.4580725348507584,
+"E_relaxed_purchases": 0.010581224412841957,
+"max_need": 1.6518092900989467,
+"max_relaxed_purchases": 0.06924680150260504,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.377325360940071,
+"E_relaxed_purchases": 0.003949507171359898,
+"max_need": 1.554540873093709,
+"max_relaxed_purchases": 0.04566839498984196,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "pred_alpha+0.004",
+"myopic": {
+"E_need": 1.6913633798525165,
+"E_relaxed_purchases": 0.1133715463496413,
+"max_need": 1.8853732301860608,
+"max_relaxed_purchases": 0.2446988912488046,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5821372180591342,
+"E_relaxed_purchases": 0.02671895763600229,
+"max_need": 1.751601426276478,
+"max_relaxed_purchases": 0.10133901486017331,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "pred_alpha-0.004",
+"myopic": {
+"E_need": 1.2305641849524687,
+"E_relaxed_purchases": 1.5394337547273786e-12,
+"max_need": 1.424574035286013,
+"max_relaxed_purchases": 2.434456201211299e-11,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.168931580015536,
+"E_relaxed_purchases": 1.3117834744810963e-11,
+"max_need": 1.353675945773459,
+"max_relaxed_purchases": 3.152677985826524e-10,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "pred_lambda+0.005",
+"myopic": {
+"E_need": 1.5884666685496454,
+"E_relaxed_purchases": 0.01934621995102469,
+"max_need": 1.7341155932910768,
+"max_relaxed_purchases": 0.10473034982288314,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5314653792975128,
+"E_relaxed_purchases": 0.0071322214234555165,
+"max_need": 1.6613744861465074,
+"max_relaxed_purchases": 0.07231998939163889,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "pred_lambda-0.005",
+"myopic": {
+"E_need": 1.3330200123358944,
+"E_relaxed_purchases": 0.00514206115472228,
+"max_need": 1.4161944881009363,
+"max_relaxed_purchases": 0.04052998120050356,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.226714754194445,
+"E_relaxed_purchases": 0.001617196177279391,
+"max_need": 1.293148202588311,
+"max_relaxed_purchases": 0.02681058717152929,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "unc x0.25",
+"myopic": {
+"E_need": 1.4608969034329216,
+"E_relaxed_purchases": 0.007568174496360759,
+"max_need": 1.6549044479504302,
+"max_relaxed_purchases": 0.06969641233591777,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.380046617478039,
+"E_relaxed_purchases": 0.003811964164720993,
+"max_need": 1.5575091656436042,
+"max_relaxed_purchases": 0.045221316374426355,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "unc x4",
+"myopic": {
+"E_need": 1.4476319370232629,
+"E_relaxed_purchases": 0.047236986532808514,
+"max_need": 1.6846205590192347,
+"max_relaxed_purchases": 0.2093166162630627,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.3716506958083419,
+"E_relaxed_purchases": 0.029338289987040127,
+"max_need": 1.6045465597995947,
+"max_relaxed_purchases": 0.1535171623811418,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "pred_alpha+0.004 unc x4",
+"myopic": {
+"E_need": 1.6885016679450686,
+"E_relaxed_purchases": 0.13205152032842857,
+"max_need": 1.8822595618049722,
+"max_relaxed_purchases": 0.3082111643682125,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5877229943147348,
+"E_relaxed_purchases": 0.04083682318394426,
+"max_need": 1.7579876394339344,
+"max_relaxed_purchases": 0.14162593629262007,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "pred_alpha+0.008",
+"myopic": {
+"E_need": 1.9217629773025404,
+"E_relaxed_purchases": 0.3360863033111472,
+"max_need": 2.1157728276360848,
+"max_relaxed_purchases": 0.4027604684706464,
+"relaxed_shortfall_states": 10,
+"E_relaxed_shortfall": 0.0009575660886868178,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.8164671977717346,
+"E_relaxed_purchases": 0.09591602144674263,
+"max_need": 1.9838459679988847,
+"max_relaxed_purchases": 0.17473727354414875,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "q_alpha 1e-6",
+"myopic": {
+"E_need": 1.4606425079500758,
+"E_relaxed_purchases": 0.007591584354439384,
+"max_need": 1.6546221049402896,
+"max_relaxed_purchases": 0.06964801635946816,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.3798047918537364,
+"E_relaxed_purchases": 0.003787397964311757,
+"max_need": 1.5572531180302676,
+"max_relaxed_purchases": 0.04544510089647009,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "fund rates x2",
+"myopic": {
+"E_need": 1.1548692730360897,
+"E_relaxed_purchases": 3.451145221138239e-12,
+"max_need": 1.3474136353240107,
+"max_relaxed_purchases": 1.262977161117784e-10,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.167488695833916,
+"E_relaxed_purchases": 7.504494760771481e-11,
+"max_need": 1.3543809682579,
+"max_relaxed_purchases": 4.417943230333732e-09,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "ETF rates x4",
+"myopic": {
+"E_need": 1.453762789307285,
+"E_relaxed_purchases": 0.010360396134345185,
+"max_need": 1.5780560261777852,
+"max_relaxed_purchases": 0.06115589977653302,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.450385498070335,
+"E_relaxed_purchases": 0.0044051857928126,
+"max_need": 1.5718172323161843,
+"max_relaxed_purchases": 0.046110566503750824,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance",
+"setting": "ETF rates x0.25",
+"myopic": {
+"E_need": 1.9718323784213463,
+"E_relaxed_purchases": 0.025600302080455294,
+"max_need": 2.2202053538589364,
+"max_relaxed_purchases": 0.11495514572003089,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.9515250763065024,
+"E_relaxed_purchases": 0.0037913283505604054,
+"max_need": 2.192100629710004,
+"max_relaxed_purchases": 0.04386829608885728,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "base",
+"myopic": {
+"E_need": 1.4580725348533703,
+"E_relaxed_purchases": 0.010581224412904381,
+"max_need": 1.651809290101674,
+"max_relaxed_purchases": 0.06924680150317213,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.3773253616459467,
+"E_relaxed_purchases": 0.003949507273911346,
+"max_need": 1.554540873844851,
+"max_relaxed_purchases": 0.045668394990986294,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha+0.004",
+"myopic": {
+"E_need": 1.6913633798551282,
+"E_relaxed_purchases": 0.11337154635047282,
+"max_need": 1.8853732301887878,
+"max_relaxed_purchases": 0.24469889124985827,
+"relaxed_shortfall_states": 20,
+"E_relaxed_shortfall": 0.00543370542992503,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5821372186822884,
+"E_relaxed_purchases": 0.026718958142263632,
+"max_need": 1.7516014269411297,
+"max_relaxed_purchases": 0.10133901533947391,
+"relaxed_shortfall_states": 10,
+"E_relaxed_shortfall": 0.0016409489094968953,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha-0.004",
+"myopic": {
+"E_need": 1.2305641849550804,
+"E_relaxed_purchases": 1.5394437524591875e-12,
+"max_need": 1.4245740352887402,
+"max_relaxed_purchases": 2.4344520295482843e-11,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.1689315801541746,
+"E_relaxed_purchases": 1.3117855212961944e-11,
+"max_need": 1.3536759459141519,
+"max_relaxed_purchases": 3.1526876554874295e-10,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "pred_lambda+0.005",
+"myopic": {
+"E_need": 1.5884666685521514,
+"E_relaxed_purchases": 0.01934621995161715,
+"max_need": 1.734115593293804,
+"max_relaxed_purchases": 0.1047303498236335,
+"relaxed_shortfall_states": 10,
+"E_relaxed_shortfall": 0.0013231088458055317,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.5314653792994366,
+"E_relaxed_purchases": 0.007132221423854507,
+"max_need": 1.6613744861485151,
+"max_relaxed_purchases": 0.07231998939300933,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "pred_lambda-0.005",
+"myopic": {
+"E_need": 1.333020012338506,
+"E_relaxed_purchases": 0.005142061154855478,
+"max_need": 1.4161944881036574,
+"max_relaxed_purchases": 0.04052998120105455,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.22671475418257,
+"E_relaxed_purchases": 0.0016171961768211122,
+"max_need": 1.2931482025734717,
+"max_relaxed_purchases": 0.026810587166697132,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "unc x0.25",
+"myopic": {
+"E_need": 1.4608969034355248,
+"E_relaxed_purchases": 0.007568174496448461,
+"max_need": 1.6549044479531478,
+"max_relaxed_purchases": 0.06969641233647714,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.3800466174609944,
+"E_relaxed_purchases": 0.003811964162804736,
+"max_need": 1.5575091656232112,
+"max_relaxed_purchases": 0.045221316374432136,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "unc x4",
+"myopic": {
+"E_need": 1.447631937025903,
+"E_relaxed_purchases": 0.04723698653305911,
+"max_need": 1.68462055902194,
+"max_relaxed_purchases": 0.20931661626507878,
+"relaxed_shortfall_states": 11,
+"E_relaxed_shortfall": 0.001136462023662023,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.3716506956068817,
+"E_relaxed_purchases": 0.029338289923931945,
+"max_need": 1.6045465595818242,
+"max_relaxed_purchases": 0.15351716215886005,
+"relaxed_shortfall_states": 9,
+"E_relaxed_shortfall": 0.0010265541635556992,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha+0.004 unc x4",
+"myopic": {
+"E_need": 1.6885016679477087,
+"E_relaxed_purchases": 0.13205152032934217,
+"max_need": 1.8822595618077322,
+"max_relaxed_purchases": 0.30821116437095425,
+"relaxed_shortfall_states": 29,
+"E_relaxed_shortfall": 0.006425602611916258,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.587722994071155,
+"E_relaxed_purchases": 0.04083682311389144,
+"max_need": 1.7579876392504272,
+"max_relaxed_purchases": 0.14162593629261422,
+"relaxed_shortfall_states": 13,
+"E_relaxed_shortfall": 0.0015906740558184265,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "pred_alpha+0.008",
+"myopic": {
+"E_need": 1.921762977305152,
+"E_relaxed_purchases": 0.33608630331201617,
+"max_need": 2.115772827638812,
+"max_relaxed_purchases": 0.4027604684733809,
+"relaxed_shortfall_states": 130,
+"E_relaxed_shortfall": 0.04763022032108849,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.8164671971264186,
+"E_relaxed_purchases": 0.09591602140590715,
+"max_need": 1.9838459676778029,
+"max_relaxed_purchases": 0.1747372734442521,
+"relaxed_shortfall_states": 113,
+"E_relaxed_shortfall": 0.018531278641270004,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "q_alpha 1e-6",
+"myopic": {
+"E_need": 1.4606425079526877,
+"E_relaxed_purchases": 0.007591584354537431,
+"max_need": 1.6546221049430168,
+"max_relaxed_purchases": 0.06964801636004302,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.3798047919180918,
+"E_relaxed_purchases": 0.003787397969910198,
+"max_need": 1.557253118095447,
+"max_relaxed_purchases": 0.04544510090052219,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "fund rates x2",
+"myopic": {
+"E_need": 1.1548692730386585,
+"E_relaxed_purchases": 3.4511452709495845e-12,
+"max_need": 1.347413635326265,
+"max_relaxed_purchases": 1.2629810577230447e-10,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.1674886958355937,
+"E_relaxed_purchases": 7.50448243184392e-11,
+"max_need": 1.3543809682598635,
+"max_relaxed_purchases": 4.417937495532209e-09,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "ETF rates x4",
+"myopic": {
+"E_need": 1.453762789374629,
+"E_relaxed_purchases": 0.010360396167890414,
+"max_need": 1.5780560262597358,
+"max_relaxed_purchases": 0.06115589994071814,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.4503854980843787,
+"E_relaxed_purchases": 0.004405185794015414,
+"max_need": 1.5718172323293107,
+"max_relaxed_purchases": 0.04611056651285163,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+},
+{
+"regime": "fixed-income-style",
+"start": "rebalance-tight",
+"setting": "ETF rates x0.25",
+"myopic": {
+"E_need": 1.9718323784206464,
+"E_relaxed_purchases": 0.025600302077885786,
+"max_need": 2.2202053538580167,
+"max_relaxed_purchases": 0.11495514571166841,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+},
+"plan": {
+"E_need": 1.9515250762683907,
+"E_relaxed_purchases": 0.0037913283446197143,
+"max_need": 2.1921006296673937,
+"max_relaxed_purchases": 0.04386829608885205,
+"relaxed_shortfall_states": 0,
+"E_relaxed_shortfall": 0.0,
+"eps": 1.0000000000000002
+}
+}
+],
+"env": {
+"machine": "Apple M2 Pro, 10 cores, 32 GB",
+"os": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+"python": "3.13.6",
+"numpy": "2.5.3",
+"cvxpy": "1.9.3",
+"clarabel": "0.11.1"
+}
+}

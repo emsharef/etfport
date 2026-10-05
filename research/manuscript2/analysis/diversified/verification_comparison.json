@@ -1,0 +1,50 @@
+[
+  {
+    "start": "cash",
+    "forecast": "steady",
+    "gain_difference_bp": 7.69122543431422e-11,
+    "max_holding_difference": 3.0585584065434546e-10
+  },
+  {
+    "start": "etfs",
+    "forecast": "steady",
+    "gain_difference_bp": 7.532897416950846e-09,
+    "max_holding_difference": 6.901351351507046e-08
+  },
+  {
+    "start": "funds",
+    "forecast": "steady",
+    "gain_difference_bp": 3.990868746583942e-11,
+    "max_holding_difference": 4.437116812860964e-09
+  },
+  {
+    "start": "mixed",
+    "forecast": "steady",
+    "gain_difference_bp": 5.960203997013025e-10,
+    "max_holding_difference": 1.5907973584250445e-08
+  },
+  {
+    "start": "cash",
+    "forecast": "manager_rotation",
+    "gain_difference_bp": 3.686231875299484e-10,
+    "max_holding_difference": 1.4937340475640326e-08
+  },
+  {
+    "start": "etfs",
+    "forecast": "manager_rotation",
+    "gain_difference_bp": 2.7196291885189794e-09,
+    "max_holding_difference": 3.842205470450111e-09
+  },
+  {
+    "start": "funds",
+    "forecast": "manager_rotation",
+    "gain_difference_bp": 3.0374684989453726e-09,
+    "max_holding_difference": 6.822311410248361e-09
+  },
+  {
+    "start": "mixed",
+    "forecast": "manager_rotation",
+    "gain_difference_bp": 9.514705689994685e-11,
+    "max_holding_difference": 3.637967027625422e-08
+  }
+]

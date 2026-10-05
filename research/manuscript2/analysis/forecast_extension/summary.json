@@ -1,0 +1,32 @@
+{
+  "cases": 49,
+  "median_planning_gain_bp": 0.2115094872380041,
+  "max_planning_gain_bp": 0.5373510705553315,
+  "max_current_fund_permission_gain_bp": 6.300076641473886,
+  "max_objective_error": 1.1909310343449775e-12,
+  "min_cash": -8.995487568805999e-12,
+  "joint_retry_cases": [
+    28
+  ],
+  "solver_accuracy_warnings": 4,
+  "compilation_warnings": 220,
+  "independent_cases": 49,
+  "independent_warnings": 0,
+  "max_independent_holding_error": 4.740029845018423e-07,
+  "max_independent_value_error_bp": 2.3453660986660907e-06,
+  "max_independent_gain_error_bp": 2.388475223824571e-06,
+  "etf_only_invariance": [
+    {
+      "style_prior_bp": 10,
+      "max_etf_only_holding_change": 3.919686551746391e-11
+    },
+    {
+      "style_prior_bp": 20,
+      "max_etf_only_holding_change": 3.9189896579557634e-11
+    },
+    {
+      "style_prior_bp": 40,
+      "max_etf_only_holding_change": 3.9158793913830255e-11
+    }
+  ]
+}
